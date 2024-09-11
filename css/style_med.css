@@ -1,0 +1,658 @@
+@media (max-width: 1400px) {
+    /* header */
+    .main_header .container .header_right {
+        width: 80% !important;
+    }
+    .header_right nav ul li a {
+        font-size: 16px;
+    }
+    .categotie_product .container .categotie_item .item_box {
+        width: 32%;
+    }
+    .banner_box .slide {
+        content: '';
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+}
+@media (max-width: 1150px) {
+    .header_right nav ul li a {
+        font-size: 15px;
+        margin-right: 13px;
+    }
+    .date_section .position_left {
+        display: none;
+    }
+    .categotie_product .product_position_left {
+        display: none;
+    }
+    .banner_box .slide h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner_box .slide {
+        top: 160px;
+    }
+    .categotie_product .container .categotie_item .item_box {
+        width: 49%;
+    }
+    .categotie_product .container .categotie_item {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    /* ====singel page */
+    .contant .button_group {
+        width: 5%;
+    }
+    .contant .select_Sort {
+        width: 35%;
+    }
+    .contant .select_show {
+        width: 35%;
+    }
+    .flex_item {
+        width: 46% !important;
+    }
+}
+@media (max-width: 1000px) {
+    .slick-next {
+        right: 30px;
+    }
+    .slick-prev {
+        left: 30px
+    }
+    .banner_box .slide {
+        left: 91px;
+    }
+    .banner_box .slide .btn {
+        width: 140px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .banner_box .slide h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .banner_box .slide p {
+        line-height: 22px;
+        display: none;
+    }
+    .footer_middle .container .row {
+        width: 31%;
+    }
+    .container .top_from h4 {
+        display: none;
+    }
+    .container .top_from form {
+        width: 65%;
+    }
+    .container .top_from .sociel_icon {
+        width: 30%;
+        justify-content: right;
+    }
+    .latest_blog_flex .blog_box {
+        width: 48%;
+        margin: 10px 7px;
+    }
+}
+@media (max-width: 1050px) {
+    /* singel page start  */
+    .select_show select {
+        width: 100px;
+    }
+    .select_Sort select {
+        width: 110px;
+    }
+    /* singel page end  */
+}
+/* nav bar responsive */
+@media (max-width: 1000px){
+    header {
+        margin-bottom: -143px;
+    }
+    .container .fa-bars {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #000;
+        font-size: 30px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .list .coros{
+        display: block;
+    }
+    .main_header .container .logo {
+        margin-left: 80px;
+    }
+    .header_right nav {
+        width: 280px;
+        height: 100vh;
+        background: #6d9900;
+        padding: 20px 20px;
+        position: absolute;
+        top: 0;
+        left: -320px;
+        z-index: 1111;
+        transition: 0.6s;
+    }
+    .header_right nav ul li {
+        display: block;
+    }
+    .header_right nav ul li a {
+        padding: 8px 0;
+        display: block;
+        color: #fff;
+        width: 150px;
+    }
+    .header_right nav ul {
+        margin-left: 15px;
+    }
+    .list .coros {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .main_header .container .header_right .header_icon_bar {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+    }
+    .all_product_item .filterDiv {
+        width: 32%;
+        margin: 10px 5px;
+    }
+    .Top_Product_section .Top_Product_position {
+        display: none;
+    }
+    
+}
+
+
+
+@media (max-width: 900px) {
+    .banner_box .slide {
+        top: 155px;
+    }
+    /* singel page start  */
+    .main_page .page_left {
+        width: 50%;
+    }
+    .main_page .page_right {
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* singel page end  */
+}
+@media (max-width: 855px) {
+    .categotie_product .container .categotie_item {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .main_header .container .logo {
+        width: 130px;
+        height: 40p;
+        height: 40px;
+        margin-top: 5px;
+    }
+    .main_banner_section .banner_box img {
+        height: 400px;
+    }
+    .slick-prev {
+        display: none !important;
+    }
+    .slick-next {
+        display: none !important;
+    }
+    .banner_box .slide {
+        left: 30px;
+    }
+    .footer_middle .container .row {
+        width: 45%;
+    }
+    .container .top_from form {
+        width: 100%;
+    }
+    .container .top_from .sociel_icon {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .latest_blog_flex .blog_box {
+        width: 47%;
+        margin: 10px 7px;
+    }
+    .review_item p {
+        text-align: justify;
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
+    .container .banner .banner_box {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .all_product_item .filterDiv {
+        width: 48%;
+    }
+    .categotie_product .container .categotie_item .item_box {
+        width: 65%;
+    }
+    .button_Item button {
+        padding: 12px 50px;
+        border-radius: 5px;
+    }
+    .banner_section {
+        padding: 100px 0;
+    }
+    .banner_section .container h1 {
+        font-size: 50px;
+        padding-left: 20px;
+        color: #000;
+    }
+    .banner_section .container h5 {
+        font-size: 25px;
+        padding-left: 20px;
+        color: #000;
+    }
+    .banner_section .container button {
+        background-color: #6d9900;
+        padding: 15px 35px;
+        border-radius: 3px;
+        margin-left: 20px;
+    }
+    /* singel page start  */
+    .page_right .foods_box .foods_flex img {
+        width: 70%;
+        margin: 0 auto;
+        height: 250px;
+    }
+    .page_right .foods_box .foods_flex p {
+        width: 100%;
+        text-align: justify;
+        margin-top: 10px;
+    }
+    .contant .compaier {
+        display: none;
+    }
+    /* /* singel page end */
+
+    /* Register stert  */
+    .middle_bar .middle_left_bar {
+        width: 100%;
+    }
+    .middle_left_bar form .form_group {
+        margin-left: 0px;
+    }
+    .middle_left_bar form .radio_yes_no {
+        margin-left: 0px;
+    }
+    .middle_left_bar form .submit .tex_left {
+        display: none;
+    }
+    .middle_left_bar form .submit .text_right {
+        width: 100%;
+        justify-content: right;
+    }
+    .middle_left_bar form .form_group label {
+        margin: 5px 0;
+    }
+    .middle_left_bar form .form_group .input_item {
+        margin: 5px 0;
+    }
+    .middle_right_bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main_register .top_bar {
+        margin-top: 50px;
+    }
+    
+    /* Register end  */
+
+    /* login stert  */
+    .login_middle_bar {
+        /* justify-content: center; */
+    }
+    .login_middle_bar .left_bar {
+        width: 48%;
+        /* margin: 7px; */
+    }
+    .login_middle_bar .middle {
+        width: 48%;
+        /* margin: 7px; */
+    }
+    .right_bar {
+        width: 48%;
+        margin-top: 10px;
+    }
+    .serch_box {
+        width: 90%;
+        right: 25px;
+    }
+    .add_to_card .container {
+        max-width: 100%;
+    }
+    .amount_1 {
+        display: block;
+    }
+    .amount_2 {
+        display: none;
+    }
+    .add_item {
+        width: 100%;
+        margin-right: 0px;
+        }
+        .total_add_item {
+            width: 100%;
+        }
+    
+
+    
+}
+@media (max-width: 600px) {
+    .all_product_item .filterDiv {
+        width: 60%;
+    }
+    .categotie_product .container .categotie_item .item_box {
+        width: 80%;
+    }
+    .review_item p {
+        margin-right: 0px;
+    }
+    /* singel page start  */
+    .page_right .foods_box .foods_flex img {
+        width: 100%;
+        height: 250px;
+    }
+    .contant .select_Sort {
+        width: 40%;
+    }
+    .contant .select_show {
+        width: 40%;
+    }
+    .flex_item {
+        width: 60% !important;
+    }
+    /* singel page end  */
+    /* Register stert  */
+    .middle_left_bar form .form_group .input_item {
+        width: 100%;
+    }
+    /* Register end  */
+    
+}
+@media (max-width: 500px) {
+    .latest_blog_flex .blog_box {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .review_item p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .container .fa-bars {
+        font-size: 25px;
+    }
+    .main_header .container .logo {
+        width: 120px;
+        height: 35px;
+        margin-top: 0px;
+    }
+    .banner_box .slide h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .banner_box .slide .btn {
+        width: 130px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .main_banner_section .banner_box img {
+        height: 320px;
+    }
+    .header_icon_bar li .fa-solid {
+        font-size: 18px;
+    }
+    .header_icon_bar li {
+        margin-right: 15px;
+    }
+    .container .banner .banner_box {
+        width: 100%;
+    }
+    .all_product_item .filterDiv {
+        width: 80%;
+    }
+    .button_flex .btn {
+        padding: 10px 25px;
+        border-radius: 3px;
+        margin: 10px 9px;
+        font-size: 15px;
+    }
+    .categotie_product .container .categotie_item .item_box {
+        width: 100%;
+    }
+    .main_page .page_left {
+        width: 80%;
+    }
+    /* singel page start  */
+    .contant .select_show {
+        width: 100%;
+        justify-content: left;
+        margin-top: 10px;
+    }
+    .contant .select_Sort {
+        width: 100%;
+        justify-content: left;
+        margin-top: 10px;
+    }
+    .select_Sort label {
+        width: 70px;
+    }
+    .select_Sort select {
+        width: 80%;
+    }
+    .select_show select {
+        width: 80%;
+    }
+    .select_show label {
+        width: 65px;
+    }
+    .flex_item {
+        width: 80% !important;
+    }
+    /* single page end */
+    /* Register stert  */
+    .middle_left_bar form .submit .text_right p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .middle_left_bar form .submit .text_right .submid_btn {
+        width: 90px;
+        height: 35px;
+    }
+    /* Register end  */
+
+    /* login stert  */
+    .login_middle_bar .left_bar {
+        width: 80%;
+        margin: 5px auto;
+    }
+    .login_middle_bar .middle {
+        width: 80%;
+        margin: 5px auto;
+    }
+    .right_bar {
+        width: 80%;
+        margin: 5px auto;
+    }
+    .main_login .top_bar {
+        padding-top: 40px;
+    }
+    .main_login .top_bar::before {
+        width: 100%;
+    }
+    /* login end  */
+    .serch_box {
+         background: #fff;
+    }
+    .serch_box .input_serch {
+        color: #000;
+        width: 80%;
+    }
+    .serch_box .serch_button {
+        width: 20%;
+            
+    }
+}
+@media (max-width: 400px) {
+    .footer_middle .container .row {
+        width: 90%;
+    }
+    .container .inline_text {
+        width: 90%;
+        margin: 15px auto;
+        text-align: justify;
+    }
+    .container .row .list li {
+        margin: 3px 0;
+    }
+    .container .row h5 {
+        font-size: 18px;
+    }
+    .container .row h5::after {
+        width: 100px;
+    }
+    .footer_bottom .container .iist_img {
+        width: 268px;
+        margin: 0 auto;
+    }
+    .footer_middle .container .row {
+        margin: 10px 10px;
+    }
+    .latest_blog_flex .blog_box {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .blog_box h2 {
+        padding: 5px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 7px;
+    }
+    .latest_blog .container .blog_tex h1 {
+        font-size: 28px;
+    }
+    .main_header .container .header_right .header_icon_bar {
+        top: 30px;
+        right: 0px;
+    }
+    .header_icon_bar li {
+        margin-right: 10px;
+    }
+    .main_header .container .logo {
+        width: 100px;
+        height: 30px;
+        margin-top: 3px;
+    }
+    .container .fa-bars {
+        left: 20px;
+    }
+    .main_header .container .logo {
+        margin-left: 60px;
+    }
+    .banner_box .slide {
+        top: 140px;
+    }
+    .all_product_item .filterDiv {
+        width: 100%;
+    }
+    .text_right .pra {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text_right .icon .icon_bar {
+        padding: 8px 8px;
+        font-size: 12px;
+    }
+    .banner_section {
+        padding: 50px 0;
+    }
+    .banner_section .container h1 {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    .banner_section .container h5 {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .banner_section .container button {
+        background-color: #6d9900;
+        padding: 12px 30px;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+    .page_right .foods_box .foods_flex img {
+        height: 200px;
+    }
+    /* singel page start  */
+    .flex_item {
+        width: 100% !important;
+    }
+    .main_page .page_right .foods_box {
+        padding: 15px 10px;
+    }
+    /* singel page end  */
+    /* Register stert  */
+    .middle_bar .middle_left_bar {
+        padding: 10px;
+    }
+    /* Register end  */
+    /* login stert  */
+    .login_middle_bar .left_bar {
+        width: 95%;
+        margin: 5px auto;
+    }
+    .login_middle_bar .middle {
+        width: 95%;
+        margin: 5px auto;
+    }
+    .right_bar {
+        width: 95%;
+        margin: 5px auto;
+    }
+    /* login end  */
+        .serch_box {
+            width: 95%;
+            height: 50px;
+           right: 10px;
+        }
+    
+        .serch_box .input_serch {
+            color: #000;
+            width: 80%;
+        }
+    
+        .serch_box .serch_button {
+            width: 20%;
+    
+        }
+        .header_icon_bar #user .login_acount {
+            right: -30px;
+        }
+}
+
+/* Register stert  */
+.middle_bar .middle_left_bar {
+	padding: 10px;
+}
+/* Register end  */

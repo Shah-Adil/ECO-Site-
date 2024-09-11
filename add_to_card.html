@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add to cartd</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+
+    <!-- fontawesome cdn -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_med.css">
+</head>
+<body>
+    <!-- header stert-->
+    <header>
+        <div class="main_header">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/Logo [1].png" alt="">
+                </a>
+                <div class="header_right">
+                    <nav>
+                        <ul class="list">
+                            <li class="action"><a href="index.html"> fruits</a></li>
+                            <li><a href="singel_page.html"> vegetables</a></li>
+                            <li><a href=""> Organic</a></li>
+                            <li><a href=""> Tablets</a></li>
+                            <li><a href=""> elementum</a></li>
+                            <li><a href=""> food</a></li>
+                            <li><a href=""> turpis nec</a></li>
+                            <i class="fa-solid coros fa-x"></i>
+                        </ul>
+                    </nav>
+                    <div class="header_icon_bar">
+                        <li>
+
+                            <i class="fa-solid src fa-magnifying-glass" onclick="searchOpen()"></i>
+
+                        </li>
+                        <li><i class="fa-solid fa-gear"></i></li>
+                        <li id="user">
+                            <i class="fa-solid fa-user"></i>
+                            <div class="login_acount">
+                                <h6>Your acount</h6>
+                                <!-- <i class="fa-solid x fa-xmark"></i> -->
+                                <p>Access account and manage orders</p>
+                                <span class="reg_login">
+                                    <a href="regester.html">
+                                        <i class="fa-sharp fa-solid fa-user-plus"></i>Register
+                                    </a>
+                                    <a href="login.html">
+                                        <i class="fa-solid fa-right-to-bracket"></i>Login
+                                    </a>
+                                </span>
+
+                            </div>
+                        </li>
+                        <li><a href="add_to_card.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                    </div>
+                    <div class="serch_box">
+                        <input type="text" class="input_serch">
+                        <div class="serch_button">
+                            <i class="fa-solid serch_bar_icon fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- -----header_end------- -->
+     <!-- <i class="fa-solid fa-plus">
+    <i class="fa-solid fa-minus"></i> -->
+    <!-- add_to_card sterd  -->
+    <section class="add_to_card">
+        <div class="container">
+            <!-- row  -->
+            <div class="row_card">
+                <!-- card_item 1 -->
+                <div class="card_item">
+                    <div class=" row_1">
+                        <img src="images/jush_1.jpg" alt="">
+                    </div>
+                    <div class=" row_2">
+                        <h2>Chicken Burger</h2>
+                        <h4>Size:6'</h4>
+                        <h3>Price: $ <span id="price">100</span></h3>
+                        <div class="plase_btn">
+                            <i class="fa-solid fa-plus" onclick="increament('count','price','item')"></i>
+                            <input class="input" type="button" id="count" value="0">
+                            <i class="fa-solid fa-minus" onclick="decrement('count','price','item')"></i>
+                            <span class="your_item">Your item $ <span id="item">00</span></span>
+                        </div>
+                        <button id="remove" class="remove"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <!-- ===remove=== -->
+                    
+                </div>
+                <hr class="hr">
+                <!-- card_item 2 -->
+                <div class="card_item">
+                    <div class=" row_1">
+                        <img src="images/food_13.jpg" alt="">
+                    </div>
+                    <div class=" row_2">
+                        <h2>Chicken Burger</h2>
+                        <h4>Size:6'</h4>
+                        <h3>Price: $ <span id="price1">600</span></h3>
+                        <div class="plase_btn">
+                            <i class="fa-solid fa-plus" onclick="increament('count1','price1','item1') "></i>
+                            <input class="input" id="count1" type="button" value="0">
+                            <i class="fa-solid fa-minus" onclick="decrement('count1','price1','item1')"></i>
+                            <span class="your_item">Your item $ <span id="item1">00</span></span>
+                        </div>
+                        <button id="remove" class="remove"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <!-- ===remove=== -->
+                   
+                </div>
+                <!-- card_item 1 -->
+                <div class="card_item">
+                    <div class=" row_1">
+                        <img src="images/jush_1.jpg" alt="">
+                    </div>
+                    <div class=" row_2">
+                        <h2>Chicken Burger</h2>
+                        <h4>Size:6'</h4>
+                        <h3>Price: $ <span id="price2">100</span></h3>
+                        <div class="plase_btn">
+                            <i class="fa-solid fa-plus" onclick="increament('count2','price2','item2')"></i>
+                            <input class="input" type="button" id="count2" value="0">
+                            <i class="fa-solid fa-minus" onclick="decrement('count2','price2','item2')"></i>
+                            <span class="your_item">Your item $ <span id="item2">00</span></span>
+                        </div>
+                        <button id="remove" class="remove"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <!-- ===remove=== -->
+                   
+                </div>
+                <hr class="hr">
+            </div>
+            <div class="add_item">
+                <h1>The total taka</h1>
+                <h2>product ammount: $ <span id="pr_ammount">00</span> </h2>
+                <h2>Delivery charge : $ <span id="charge">20</span></h2>
+                <h2 class="h2_border">Total product ammount : $ <span id="total_ammoount">00</span></h2>
+                <div class="kuppon_code" id="kupon_main_div">
+                    <h3>Kupon Code width 50 taka less</h3>
+                    <h4>Your code is : FIZ_KHAN </h4>
+                    <input class="tex_value" id="kuponInput" type="text" name="" id=""><br>
+                    <input class="apply_btn" id="applyBTN" type="button" value="Apply">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- add_to_card end  -->
+
+    <!--===== footer start===== -->
+    <footer>
+        <!-- ====footer_top==== -->
+       <div class="footer_top">
+            <div class="container">
+                <div class="top_from">
+                    <h4>SIGN UP FOR NEWSLETTER</h4>
+                    <form action="">
+                        <input type="email" id="email" name="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="sociel_icon">
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-pinterest-p"></i></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <!-- ====footer_middle==== -->
+       <div class="footer_middle">
+            <div class="container">
+                <!-- row_1 -->
+                <div class="row">
+                    <h5>CONTACT US</h5>
+                    <ul class="list">
+                        <li><a href=""><i class="fa-solid fa_icon fa-house"></i> Organic Store uffin Street Pufville India surat</a></li>
+                        <li><a href=""><i class="fa-solid fa_icon fa-mobile"></i> 123-456-789</a></li>
+                        <li><a href=""><i class="fa-solid fa_icon fa-envelope"></i> amazo258@gmail.com</a></li>          
+                    </ul>
+                    <h6>PAYMENT</h6>
+                    <ul class="list_inline">
+                        <li><a href=""><i class="fa-brands fa_so fa-cc-mastercard"></i></i></a></li>
+                        <li><a href=""><i class="fa-brands fa_so fa-cc-visa"></i></a></li>
+                        <li><a href=""><i class="fa fa_so fa-credit-card"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa_so fa-cc-paypal"></i></i></a></li>
+                        </ul>
+                </div>
+                <!-- row_2 -->
+                <div class="row">
+                    <h5>INFORMATION</h5>
+                    <ul class="list">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Delivery Information</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Brands</a></li>
+                    </ul>
+                </div>
+                <!-- row_3 -->
+                <div class="row">
+                    <h5>MY ACCOUNT</h5>
+                    <ul class="list">
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Order History</a></li>
+                        <li><a href="">Wish List</a></li>
+                        <li><a href="">Newsletter</a></li>
+                        <li><a href="">Specials</a></li>
+                    </ul>
+                </div>
+                <!-- row_3 -->
+                <div class="row">
+                    <h5>CUSTOMER SERVICE</h5>
+                    <ul class="list">
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Returns</a></li>
+                        <li><a href="">Site Map</a></li>
+                        <li><a href="">Gift Certificates</a></li>
+                        <li><a href="">Affiliate</a></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+       <!-- =====footer bottom==== -->
+       <div class="footer_bottom">
+            <div class="container">
+                <!-- iist_img -->
+                <ul class="iist_img">
+                    <li>
+                        <img class="f1" src="images/f1.png" alt="">
+                    </li>
+                    <li>
+                        <img class="p2" src="images/f2.png" alt="">
+                    </li>
+                </ul>
+                <!-- list_inline -->
+                <ul class="list_inline">              
+                    <li><a href="#">snack plants</a></li>
+                    <li><a href="#">garden plant</a></li>
+                    <li><a href="#">house plants</a></li>
+                    <li><a href="#">indoor plants</a></li>
+                    <li><a href="#">small plants</a></li>
+                    <li><a href="#">office plants</a></li>
+                    <li><a href="#">Crenate Leaf</a></li>
+                    <li><a href="#">Vascular Plant</a></li>
+                    <li><a href="#">Indian Basil</a></li>
+                    <li><a href="#">natural</a></li>
+                    <li><a href="#">Emergents</a></li>
+                    <li><a href="#">small plants</a></li>
+                    <li><a href="#">office plants</a></li>
+                    <li><a href="#">Crenate Leaf</a></li>
+                </ul>
+            </div>
+            <div class="copy_text_center">
+                <div class="container">
+                  <p>
+                    Powered By <a href="#">OpenCart</a> Flavoro Store © 2022
+                  </p>
+                </div>
+              </div>
+       </div>
+    </footer>
+    <!--===== footer end===== -->
+
+    <!-- Jquery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="index.js"></script>
+    <script src="js/Eco.js"></script>
+</body>
+</html>
